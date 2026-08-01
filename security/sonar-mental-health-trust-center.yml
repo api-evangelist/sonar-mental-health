@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.sonarmentalhealth.com/
+url: https://app.vanta.com/sonarmentalhealth.com/trust/y30dgfee7tm5xlmeos21y
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://www.sonarmentalhealth.com/
+  keywords:
+  - soc 2
+  - hipaa

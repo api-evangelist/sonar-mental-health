@@ -1,8 +1,26 @@
 aid: sonar-mental-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sonar-mental-health.png
 name: Sonar Mental Health
-description: Sonar Mental Health is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Sonar Mental Health provides 24/7 text-based wellbeing coaching and care
+  navigation for youth. Trained Wellbeing Coaches lead the conversations, supported
+  by AI tooling that surfaces context and flags risk without making independent decisions,
+  delivering between-visit and after-hours support, escalation and care coordination
+  to higher levels of care, and real-time insights dashboards for measurement-based
+  care across schools, health systems, primary care, and EAP pathways. The company
+  reports serving 20,000+ young people with higher engagement between visits, and is
+  backed by 500 Global. There is no public developer API surface; this profile captures
+  the company's identity, security posture (SOC 2, HIPAA), and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/sonar-mental-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Healthcare
+- Digital Health
+- Youth
+- Coaching
+- Care Navigation
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://sonarmentalhealth.com
+- type: Blog
+  url: https://sonarmentalhealth.substack.com/
+- type: Login
+  url: https://app.sonarmentalhealth.com
+- type: PrivacyPolicy
+  url: https://sonarmentalhealth.com/privacy-policy
+- type: TermsOfService
+  url: https://sonarmentalhealth.com/terms-of-use
+- type: TrustCenter
+  url: security/sonar-mental-health-trust-center.yml
+- type: Compliance
+  url: https://app.vanta.com/sonarmentalhealth.com/trust/y30dgfee7tm5xlmeos21y
+- type: DomainSecurity
+  url: security/sonar-mental-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
